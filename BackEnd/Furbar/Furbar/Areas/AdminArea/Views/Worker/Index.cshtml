@@ -1,0 +1,62 @@
+﻿@using Furbar.ViewModels.WorkerAdmin;
+@model WorkerVM
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Worker Table</h4>
+                <a asp-action="create" class="btn btn-success">Create Worker</a>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Image</th>
+                                <th>Fullname</th>
+                                <th>Position</th>
+                         
+                                <th>Settings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Workers)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="~/images/team/@item.ImageUrl" width="100" height="100" />
+                                    </td>
+                                    <td>
+                                        @item.FullName
+                                    </td>
+                                    <td>
+                                        @item.Position
+                                    </td>
+                                    <td>
+                                        <a asp-action="details" asp-route-id="@item.Id" class="btn btn-outline-primary">
+                                            <i class="mdi mdi-account-card-details"></i>
+                                        </a>
+                                        <a asp-action="edit" asp-route-id="@item.Id" class="btn btn-outline-warning">
+                                            <i class="mdi mdi-tooltip-edit"></i>
+                                        </a>
+                                        <a asp-action="delete" asp-route-id="@item.Id" class="btn btn-outline-danger">
+                                            <i class="mdi mdi-delete"></i>
+                                        </a>
+                                    </td>
+
+                                </tr>
+
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

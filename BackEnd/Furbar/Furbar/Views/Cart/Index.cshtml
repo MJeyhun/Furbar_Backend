@@ -1,0 +1,141 @@
+﻿@model List<CartVM>
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(images/page-banner.jpg)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">Cart</h2>
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+<!-- Shopping Cart Section Start -->
+<div class="section section-padding">
+    <div class="container">
+        <div class="cart-wrapper">
+            <!-- Cart Wrapper Start -->
+            <div class="cart-table table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="product-thumb">Image</th>
+                            <th class="product-info">
+                                product Information
+                            </th>
+                            <th class="product-quantity">Quantity</th>
+                  
+                            <th class="product-action">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       @foreach(var product in Model)
+                        {
+                            <tr>
+                                <td class="product-thumb">
+                                    <img src="~/images/product/@product.ImageUrl" alt="" />
+                                </td>
+                                <td class="product-info">
+                                    <h6 class="name">
+                                        <a asp-controller="productdetail" asp-action="index" asp-route-id="@product.Id">@product.Name</a>
+                                    </h6>
+                                    <div class="product-prices">
+                                 
+                                        <span class="sale-price">$@product.Price</span>
+                                    </div>
+                                </td>
+                                <td class="quantity">
+                                    <div class="product-quantity d-inline-flex">
+                                        <button type="button" class="sub">
+                                            <a asp-controller="cart" asp-action="decreasecount" asp-route-id="@product.Id">
+                                                -
+                                            </a>
+                                        </button>
+                                       
+                                        <input type="text" value="@product.BasketCount" />
+                                        <button type="button" class="add">
+                                            <a  asp-controller="cart" asp-action="increasecount" asp-route-id="@product.Id" >
+                                                +
+                                            </a>
+                                        </button>
+                                        
+                                    </div>
+                                </td>
+                
+                                <td class="product-action">
+                                    <a asp-controller="cart" asp-action="DeleteItem" asp-route-id="@product.Id" class="remove">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- Cart Wrapper End -->
+            <!-- Cart btn Start -->
+            <div class="cart-btn">
+                <div class="left-btn">
+                    <a asp-controller="shop" asp-action="index" class="btn btn-dark btn-hover-primary">Continue Shopping</a>
+                </div>
+             
+            </div>
+            <!-- Cart btn Start -->
+        </div>
+        <div class="row">
+
+
+            <div class="col-lg-4">
+                <!-- Cart Totals Start -->
+                <div class="cart-totals">
+                    <div class="cart-title">
+                        <h4 class="title">Cart totals</h4>
+                    </div>
+                    <div class="cart-total-table">
+                        <table class="table">
+                            <tbody>
+                              
+                            
+                                <tr>
+                                    <td>
+                                        <p class="value">Total:</p>
+                                    </td>
+                                    <td>
+                                        <p class="price">$@ViewBag.TotalPrice</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                     @if (TempData["Success"]!=null)
+                         {
+                             <div class="row justify-content-center alert alert-success" id="successorder">
+                                  <p>@TempData["Success"]</p>
+                             </div> 
+                         }
+                         @if (TempData["NotInStock"] != null)
+                         {
+                              <div class="row justify-content-center alert alert-danger" id="errororder">
+                                       <p>@TempData["NotInStock"]</p>
+                              </div> 
+                         }
+                    <div class="cart-total-btn">
+                        <form asp-action="sale" method="post">
+                            <button type="submit"><a  class="btn btn-dark btn-hover-primary btn-block">Proceed To Checkout</a></button>
+                        </form>
+                       
+                    </div>
+                </div>
+                <!-- Cart Totals End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Shopping Cart Section End -->
+

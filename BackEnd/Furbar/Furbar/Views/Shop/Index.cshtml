@@ -1,0 +1,188 @@
+﻿@model shopVM
+@{
+    ViewData["Title"] = "Shop";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <!-- Page Banner Section Start -->
+    <div class="section page-banner-section" style="background-image: url(images/page-banner.jpg)">
+        <div class="container">
+            <!-- Page Banner Content End -->
+            <div class="page-banner-content">
+                <h2 class="title">Shop Page</h2>
+
+            </div>
+            <!-- Page Banner Content End -->
+        </div>
+    </div>
+    <!-- Page Banner Section End -->
+
+    <!-- Shop Section Start -->
+    <div class="section section-padding">
+        <div class="container">
+            <!-- Product Section Wrapper Start -->
+            <div class="product-section-wrapper">
+                <!-- Shop top Bar Start -->
+                <div class="shop-top-bar">
+                 
+                    <div class="shop-tabs">
+                        <ul class="nav">
+                            <li>
+                                <button data-bs-toggle="tab" data-bs-target="#grid">
+                                    <i class="fa fa-th"></i>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="active" data-bs-toggle="tab" data-bs-target="#list">
+                                    <i class="fa fa-list"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                  
+                </div>
+                <!-- Shop top Bar End -->
+
+                <div class="tab-content">
+                    <div class="tab-pane fade" id="grid">
+                        <!-- Shop Product Wrapper Start -->
+                        <div class="shop-product-wrapper">
+                            <div class="row">
+                                @foreach(var product in Model.Products)
+                            {
+                                <div class="col-lg-3 col-sm-6">
+                                    <!-- Single Product Start -->
+                                    <div class="single-product">
+                                        <a asp-controller="productdetail" asp-action="index" asp-route-id="@product.Id"><img src="~/images/product/@product.ProductImages.FirstOrDefault().ImageUrl" alt="product" /></a>
+                                        <div class="product-content">
+                                            <h4 class="title">
+                                                <a asp-controller="productdetail" asp-action="index" asp-route-id="@product.Id">@product.Name</a>
+                                            </h4>
+                                            <div class="price">
+                                                <span class="sale-price">$@product.Price</span>
+                                            </div>
+                                        </div>
+                                        <ul class="product-meta">
+                                            <li>
+                                                <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" asp-controller="productdetail" asp-action="index" asp-route-id="@product.Id">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                @if (User.Identity.IsAuthenticated)
+                                                {
+                                                      <a class="action" asp-controller="cart" asp-action="add" asp-route-id="@product.Id" asp-route-name="@product.Name">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                    </a>
+                                                }
+                                                else
+                                                {
+                                                    <a class="action" asp-controller="account" asp-action="login">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </a>
+                                                }
+
+                                            </li>
+                                            <li>
+                                                @if (User.Identity.IsAuthenticated)
+                                                {
+                                                    <a class="action" asp-controller="wishlist" asp-action="add" asp-route-id="@product.Id"><i class="fa-regular fa-heart"></i></a>
+                                                }
+                                                else
+                                                {
+                                                    <a class="action" asp-controller="account" asp-action="login"><i class="fa-regular fa-heart"></i></a>
+                                                }
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- Single Product End -->
+                                </div>
+                                }
+
+                            </div>
+                        </div>
+                        <!-- Shop Product Wrapper End -->
+                    </div>
+                    <div class="tab-pane fade show active" id="list">
+                        <!-- Shop Product Wrapper Start -->
+                        <div class="shop-product-wrapper">
+                           @foreach(var product in Model.Products)
+                        {
+                            <!-- Single Product Start -->
+                            <div class="single-product-02 product-list">
+                                <div class="product-images">
+                                    <a asp-controller="productdetail" asp-action="index" asp-route-id="@product.Id"><img src="~/images/product/@product.ProductImages.FirstOrDefault().ImageUrl" width="270" height="303" alt="product" /></a>
+
+                                    <ul class="product-meta">
+                                        <li>
+                                            <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" asp-controller="productdetail" asp-action="index" asp-route-id="@product.Id">
+                                                <i class="fa-solid fa-magnifying-glass"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            @if (User.Identity.IsAuthenticated)
+                                            {
+                                                <a class="action" asp-controller="cart" asp-action="add" asp-route-id="@product.Id" asp-route-name="@product.Name">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <a class="action" asp-controller="account" asp-action="login">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </a>
+                                            }
+                                        </li>
+                                        <li>
+                                            @if (User.Identity.IsAuthenticated)
+                                            {
+                                                <a class="action" asp-controller="wishlist" asp-action="add" asp-route-id="@product.Id"><i class="fa-regular fa-heart"></i></a>
+                                            }
+                                            else
+                                            {
+                                                <a class="action" asp-controller="account" asp-action="login"><i class="fa-regular fa-heart"></i></a>
+                                            }
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product-content">
+                                    <h4 class="title">
+                                        <a asp-controller="productdetail" asp-action="index" asp-route-id="@product.Id">@product.Name</a>
+                                    </h4>
+                                    <div class="price">
+                                        <span class="sale-price">$@product.Price</span>
+                                    </div>
+                                    <p>
+                                        @product.Description
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Single Product End -->
+                        }
+
+
+                        </div>
+                        <!-- Shop Product Wrapper End -->
+
+                    </div>
+                </div>
+
+                <!-- Page pagination Start -->
+            <div class="d-flex justify-content-center col-lg-12">
+                <nav aria-label="...">
+                    <ul class="pagination pagination-lg">
+                        @for (int i = 1; i <= Model.paginationVM.PageCount; i++)
+                        {
+                            <li class="page-item @(Model.paginationVM.CurrentPage==i?"disabled":"")">
+                                <a class="page-link" asp-action="index" asp-route-page="@i" tabindex="-1">@i</a>
+                            </li>
+                        }
+                    </ul>
+                </nav>
+            </div>
+                <!-- Page pagination End -->
+            </div>
+            <!-- Product Section Wrapper End -->
+        </div>
+    </div>
+    <!-- Shop Section End -->

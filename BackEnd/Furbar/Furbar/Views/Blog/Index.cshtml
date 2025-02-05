@@ -1,0 +1,76 @@
+﻿@model blogVM
+@{
+    ViewData["Title"] = "Blogs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(images/page-banner.jpg)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">Blogs</h2>
+
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+<!-- Blog Section Start -->
+<div class="section section-padding">
+    <div class="container">
+        <!-- Blog Wrapper Start -->
+        <div class="blog-wrapper">
+            <div class="row">
+                @foreach(var blog in Model.Blogs)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <!-- Single Blog Start -->
+                        <div class="single-blog">
+                            <a asp-controller="blogdetail" asp-action="index" asp-route-id="@blog.Id"><img src="~/images/blog/@blog.BlogImages.FirstOrDefault().ImageUrl" width="370" height="230" alt="Blog" /></a>
+
+                            <div class="blog-content">
+                                <ul class="blog-meta">
+                                    <li>
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>
+                                            BY:<a href="#">@blog.AppUser.Fullname</a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-sharp fa-regular fa-calendar"></i>
+                                        <span>@blog.CreatedDate.Value.ToString("dd MMMM yyyy")</span>
+                                    </li>
+                                </ul>
+                                <h4 class="title">
+                                    <a asp-controller="blogdetail" asp-action="index" asp-route-id="@blog.Id">
+                                       @blog.Title
+                                    </a>
+                                </h4>
+                                <a asp-controller="blogdetail" asp-action="index" asp-route-id="@blog.Id" class="btn btn-dark btn-hover-primary">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Single Blog End -->
+                    </div>
+                }
+
+            </div>
+        </div>
+        <!-- Blog Wrapper End -->
+        <!-- Page pagination Start -->
+         <div class="d-flex justify-content-center col-lg-12">
+                <nav aria-label="...">
+                    <ul class="pagination pagination-lg">
+                    @for (int i = 1; i <= Model.paginationVM.PageCount; i++)
+                    {
+                                <li class="page-item @(Model.paginationVM.CurrentPage==i?"disabled":"")">
+                                    <a class="page-link" asp-action="index" asp-route-page="@i" tabindex="-1">@i</a>
+                                </li>
+                    }
+                    </ul>
+                </nav>
+            </div>
+        <!-- Page pagination End -->
+    </div>
+</div>
+<!-- Blog Section End -->

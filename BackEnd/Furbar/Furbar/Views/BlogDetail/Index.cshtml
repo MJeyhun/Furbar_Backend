@@ -1,0 +1,217 @@
+﻿@model blogDetailVM
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <!-- Page Banner Section Start -->
+    <div class="section page-banner-section" style="background-image: url(images/page-banner.jpg)">
+        <div class="container">
+            <!-- Page Banner Content End -->
+            <div class="page-banner-content">
+                <h2 class="title">Blog Details</h2>
+
+            </div>
+            <!-- Page Banner Content End -->
+        </div>
+    </div>
+    <!-- Page Banner Section End -->
+
+    <!-- Blog Details Section Start -->
+    <div class="section section-padding">
+        <div class="container">
+            <!-- Blog Wrapper Start -->
+            <div class="blog-wrapper">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Blog Details Wrapper Start -->
+                        <div class="blog-details-wrapper">
+                            <img src="~/images/blog/@Model.Blog.BlogImages.FirstOrDefault().ImageUrl" width="770" height="479" alt="Blog Details" />
+
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="fa-solid fa-user"></i>
+                                    <span> BY:<a href="#">@Model.Blog.AppUser.UserName</a></span>
+                                </li>
+                                <li>
+                                    <i class="fa-sharp fa-regular fa-calendar"></i>
+                                    <span>@Model.Blog.CreatedDate</span>
+                                </li>
+                            </ul>
+
+                            <h3 class="title">
+                                @Model.Blog.Title
+                            </h3>
+
+                            <p>
+                             @Model.Blog.Content
+                            </p>
+
+                       
+                         
+                            <div class="blog-dec-images">
+                                <div class="dec-col-1">
+                                    <div class="single-dec-img">
+                                        <img src="~/images/blog/@Model.Blog.BlogImages.FirstOrDefault().ImageUrl" width="470" height="290" alt="Blog" />
+                                    </div>
+                                </div>
+                                <div class="dec-col-2">
+                                    <div class="single-dec-img">
+                                    <img src="~/images/blog/@Model.Blog.BlogImages.FirstOrDefault().ImageUrl" width="270" height="290" alt="Blog" />
+                                    </div>
+                                </div>
+                            </div>
+
+                     
+                        </div>
+                        <!-- Blog Details Wrapper End -->
+
+                        <!-- Blog Author Social Start -->
+                        <div class="blog-auhtor-social">
+                            <div class="blog-auhtor">
+                               
+                                <div class="auhtor-content">
+                                <p>BY:<a href="#">@Model.Blog.AppUser.UserName</a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Blog Author Social End -->
+
+     
+
+                        <!-- Blog Comment & Form Start -->
+                        <div class="blog-comment-form">
+                            <!-- Blog Comment Start -->
+                            <div class="blog-comment section-padding-02">
+                            
+                                <h3 class="comment-title">@Model.CommentCount Comments</h3>
+                            
+
+
+                                <ul class="comments-items">
+                                    @foreach(var comment in Model.Blog.Comments)
+                                {
+
+                                    <li>
+                                        <!-- Single Comment Start -->
+                                        <div class="single-comment">
+
+                                            <div class="comment-content">
+                                                <div class="comment-name-date">
+                                                    <h6 class="name">
+                                                       @comment.AppUser.UserName
+                                                    </h6>
+                                                    <span class="date">
+                                                        @comment.CreatedDate
+                                                    </span>
+                                                </div>
+                                                <p>
+                                                    @comment.Message
+                                                </p>
+                                                @if (comment.AppUserId == ViewBag.UserId)
+                                                {
+                                                    <a asp-controller="blogdetail" asp-action="DeleteComment" asp-route-id="@comment.Id" class="reply">Delete</a>
+                                                }
+                                               
+                                            </div>
+                                        </div>
+                                        <!-- Single Comment End -->
+                                    </li>
+                                }
+                            </ul>
+                            </div>
+                            <!-- Blog Comment End -->
+
+                            <!-- Blog Comment Form Start -->
+                            <div class="blog-comment-form section-padding-02">
+                                <h3 class="comment-title">
+                                    Leave a comment
+                                </h3>
+
+                                <div class="comment-form-wrapper">
+                                <form asp-controller="blogdetail" asp-action="addcomment" method="post">
+
+                                    <div class="row">
+
+                                        <input type="hidden" name="blogId" value="@Model.Blog.Id" />
+                                        <div class="col-md-12">
+                                            <div class="single-form">
+                                                <textarea name="commentMessage" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="single-form">
+                                                <button class="btn btn-primary btn-hover-dark">
+                                                    Post Comment
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </form>
+                                </div>
+                            </div>
+                            <!-- Blog Comment Form End -->
+                        </div>
+                        <!-- Blog Comment & Form End -->
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Sidebar Start -->
+                        <div class="sidebar">
+           
+                            <!-- Sidebar Widget Start -->
+                            <div class="sidebar-widget-02">
+                                <div class="widget-admin">
+                              
+                                    <h4 class="admin-name">@Model.Blog.AppUser.UserName</h4>
+                                    <span class="designation">Main Admin</span>
+                                  
+                                </div>
+                            </div>
+                            <!-- Sidebar Widget End -->
+
+                            <!-- Sidebar Widget Start -->
+                            <div class="sidebar-widget-02">
+                                <h4 class="widget-title-02">Recent Post</h4>
+
+                                <div class="widget-recent-post">
+                                    @foreach(var blog  in Model.Blogs)
+                                {
+                                    <div class="single-recent-post">
+                                        <ul class="blog-meta">
+                                            <li><i class="fa-sharp fa-regular fa-calendar"></i> <span>@blog.CreatedDate</span></li>
+                                        </ul>
+                                        <h5 class="title">
+                                            <a asp-controller="blogdetail" asp-action="index" asp-route-id="@blog.Id">@blog.Title</a>
+                                        </h5>
+                                    </div>
+                                }
+
+                                </div>
+                            </div>
+                            <!-- Sidebar Widget End -->
+
+                            <!-- Sidebar Widget Start -->
+                            <div class="sidebar-widget-02">
+
+                                <h4 class="widget-title-02">Subscribe</h4>
+
+                                <div class="widget-subscribe">
+                                    <form action="#">
+                                        <input type="text" placeholder="Enter Your Email">
+                                        <button class="btn btn-primary btn-hover-dark">Subscribe Now</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Sidebar Widget End -->
+      
+                        </div>
+                        <!-- Sidebar End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Wrapper End -->
+        </div>
+    </div>
+    <!-- Blog Details Section End -->

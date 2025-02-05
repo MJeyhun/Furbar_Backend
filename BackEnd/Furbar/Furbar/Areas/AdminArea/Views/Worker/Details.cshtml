@@ -1,0 +1,19 @@
+﻿@using Furbar.ViewModels.WorkerAdmin;
+@model WorkerDetailVM
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                        <img src="~/images/team/@Model.ImageUrl" width="100" height="100"/>
+                      <h2 class="card-title">@Model.Fullname</h2>
+                      <h4 class="card-title">@Model.Position</h4>        
+                      <a asp-action="index" class="btn btn-dark">Return Back</a>
+                    </div>
+                  </div>
+                </div>
+</div>

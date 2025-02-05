@@ -1,0 +1,10 @@
+﻿@using Furbar.ViewModels.Account.Roles;
+
+@model RoleDetailVM
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>@Model.Name</h1>
+<a asp-action="index" class="btn btn-dark">Return Back</a>

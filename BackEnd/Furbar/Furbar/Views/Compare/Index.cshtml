@@ -1,0 +1,120 @@
+﻿@model compareVM
+@{
+    ViewData["Title"] = "Compare";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(images/page-banner.jpg)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">Compare</h2>
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+<!-- Shopping Cart Section Start -->
+<div class="section section-padding">
+    <div class="container">
+        <div class="cart-wrapper">
+            <!-- compare Start -->
+            <div class="compare-wrapper table-responsive">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <th>
+                                <a href="#">Remove all products</a>
+                            </th>
+                            @foreach(var comparedProduct in Model.Products)
+                            {
+                                <td>
+                                    <div class="compare-product">
+                                        <div class="pack-product-container">
+                                            <div class="thumb-mask">
+                                                <a href="product-details.html">
+                                                    <img src="@comparedProduct.ProductImages.FirstOrDefault().ImageUrl" alt="Product" />
+                                                </a>
+                                            </div>
+                                            <div class="desc-box">
+                                                <a class="product-name" href="product-details.html">@comparedProduct.Name</a>
+                                                <div class="product-reviews">
+
+                                                    <span class="score">
+                                                        <div class="score-wrap">
+                                                            <span class="stars-active" style="width:@comparedProduct.StarReview%">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                            </span>
+                                                            <span class="stars-inactive">
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                                <div class="product-prices">
+                                                    <span class="sale-price">$@comparedProduct.Price</span>
+                                                </div>
+
+                                                <div class="product-cart">
+                                                    <button class="btn btn-primary btn-hover-dark">
+                                                        Add to Cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="compare-remove">
+                                            Remove
+                                        </button>
+                                    </div>
+                                </td>
+                            }
+
+                        </tr>
+                        <tr>
+                            <th>Compositions</th>
+                            @foreach(var product in Model.Products)
+                            {
+                                <td>@product.Material</td>
+                            }
+
+                        </tr>
+                   
+                        <tr>
+                            <th>Color</th>
+                            @foreach (var product in Model.Products)
+                            {
+                                  <td>@product.ProductColors.FirstOrDefault().Color.Name</td>
+                            }
+                        </tr>
+                        <tr>
+                            <th>Size</th>
+                            @foreach (var product in Model.Products)
+                            {
+                                <td>@product.Size</td>
+                            }
+                        </tr>
+                        <tr>
+                            <th>Frame Size</th>
+                            @foreach (var product in Model.Products)
+                            {
+                                <td>@product.FrameSize</td>
+                            }
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- compare End -->
+        </div>
+    </div>
+</div>
+<!-- Shopping Cart Section End -->

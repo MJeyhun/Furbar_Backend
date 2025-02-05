@@ -1,0 +1,238 @@
+﻿@model productDetailVM
+@{
+    ViewData["Title"] = "Product detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(images/page-banner.jpg)">
+        <div class="container">
+            <!-- Page Banner Content End -->
+            <div class="page-banner-content">
+                <h2 class="title">Product Details</h2>
+
+            </div>
+            <!-- Page Banner Content End -->
+        </div>
+    </div>
+    <!-- Page Banner Section End -->
+
+    <!-- Product Details Section Start -->
+    <div class="section section-padding-02">
+        <div class="container">
+            <!-- Product Section Wrapper Start -->
+            <div class="product-section-wrapper">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Product Details Images Start -->
+                        <div class="product-details-images">
+                            <!-- Details Gallery Images Start -->
+                            <div class="details-gallery-images" id="img-container">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                       @foreach(var image in Model.Product.ProductImages)
+                                    {
+                                        <div class="swiper-slide single-img zoom">
+                                            <img src="~/images/product/@image.ImageUrl" width="570" height="604" alt="Product Image" />
+                                        </div>
+                                    }
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Details Gallery Images End -->
+
+                            <!-- Details Gallery Thumbs Start -->
+                            <div class="details-gallery-thumbs">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        @foreach(var image in Model.Product.ProductImages)
+                                    {
+                                        <div class="swiper-slide">
+                                            <img src="~/images/product/@image.ImageUrl" width="88" height="93" alt="Product Thumbnail" />
+                                        </div>
+                                    }
+
+                                    </div>
+                                </div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-prev">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div class="swiper-button-next">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <!-- Details Gallery Thumbs End -->
+                        </div>
+                        <!-- Product Details Images End -->
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Product Details Description Start -->
+                        <div class="product-details-description">
+                            <h4 class="product-name">
+                                @Model.Product.Name
+                            </h4>
+                            <div class="price">
+                                <span class="sale-price">$@Model.Product.Price</span>
+                                
+                            </div>
+            
+                            <div class="product-color">
+                                <span class="lable">Color:</span>
+                                <ul>
+                                    @foreach(var color in Model.Product.ProductColors)
+                                {
+                                    <li>
+                                        <input type="radio" name="colors" id="@color.ColorId" />
+                                        <label for="@color.ColorId"><span class="color-@color.Color.Name.ToLower()"></span></label>
+                                    </li>
+                                }
+
+                                </ul>
+                            </div>
+
+                            <p>
+                               @Model.Product.Description
+                            </p>
+
+                            <div class="product-meta">
+                             
+                                <div class="meta-action">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                   
+                                        <a class="action" asp-controller="cart" asp-action="add" asp-route-id="@Model.Product.Id" asp-route-name="@Model.Product.Name">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                              
+                                    
+                                }
+                                else
+                                {
+                                    <a class="action" asp-controller="account" asp-action="login">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                }
+                                    
+                                </div>
+                                <div class="meta-action">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    
+                                         <a class="action" asp-controller="wishlist" asp-action="add" asp-route-id="@Model.Product.Id" ><i class="fa-solid fa-heart"></i></a>
+                                }
+                                else
+                                {
+                                    <a class="action" asp-controller="account" asp-action="login" ><i class="fa-solid fa-heart"></i></a>
+                                }
+                                   
+                                </div>
+                                <div class="meta-action">
+                                    <a class="action" href="#"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="product-info">
+                               
+                                <div class="single-info">
+                                    <span class="lable">Categories:</span>
+                                    <span class="value"
+                                            >@foreach(var category in Model.Product.ProductCategories)
+                                    {
+                                        <a href="#">@category.Category.Name,</a>
+                                    }
+
+                                        </span>
+                                </div>
+                                <div class="single-info">
+                                    <span class="lable">tag:</span>
+                                    <span class="value"
+                                            ><a href="#">Furniture</a></span>
+                                </div>
+                                <div class="single-info">
+                                    <span class="lable">Share:</span>
+                                    <ul class="social">
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product Details Description End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Product Section Wrapper End -->
+        </div>
+    </div>
+    <!-- Product Details Section End -->
+
+    <!-- Product Details tab Section Start -->
+    <div class="section section-padding-02">
+        <div class="container">
+            <!-- Product Details Tabs Start -->
+            <div class="product-details-tabs">
+                <ul class="nav justify-content-center">
+                    <li>
+                        <button data-bs-toggle="tab" data-bs-target="#information">
+                            Information
+                        </button>
+                    </li>
+                    <li>
+                        <button class="active" data-bs-toggle="tab" data-bs-target="#description">
+                            Description
+                        </button>
+                    </li>
+                  
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade" id="information">
+                        <!-- Information Content Start -->
+                        <div class="information-content">
+                            <h4 class="title">Information</h4>
+                            <p>
+                                @Model.Product.Information
+                            </p>
+
+                            <h4 class="title">Fabric & care</h4>
+                            <ul>
+                                
+                              
+                                <li>Material:@Model.Product.Material</li>
+                                <li>Size:@Model.Product.Size</li>
+                                <li>
+                                    Frame size:@Model.Product.FrameSize
+                                </li>
+                            </ul>
+
+                  
+                        </div>
+                        <!-- Information Content End -->
+                    </div>
+                    <div class="tab-pane fade show active" id="description">
+                        <!-- Description Content Start -->
+                        <div class="description-content">
+                            <p>
+                                @Model.Product.Description
+                            </p>
+                        </div>
+                        <!-- Description Content End -->
+                    </div>
+     
+                </div>
+            </div>
+            <!-- Product Details Tabs End -->
+        </div>
+    </div>
+    <!-- Product Details tab Section End -->
+

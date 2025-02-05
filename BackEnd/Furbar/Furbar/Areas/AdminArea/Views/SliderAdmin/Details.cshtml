@@ -1,0 +1,23 @@
+﻿
+@model SliderDetailVM
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                        <img src="~/images/slider/@Model.ImageUrl" width="100" height="100"/>
+                      <h2 class="card-title">@Model.Title</h2>
+                    
+
+                      <p>
+                    @Model.Description
+                      </p>
+                      <a asp-action="index" class="btn btn-dark">Return Back</a>
+                    </div>
+                  </div>
+                </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@using Furbar.ViewModels.Account.Users;
+
+@model UserDetailVM
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">@Model.User.Fullname</h4>
+                      <p>
+                        @Model.User.UserName
+                      </p>
+                      <p>Roles:</p>
+                      @foreach (var role in Model.UserRoles)
+                        {
+                            <p>@role</p>
+                        }
+                      <a asp-action="index" class="btn btn-dark">Return Back</a>
+                    </div>
+                  </div>
+                </div>
+</div>

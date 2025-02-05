@@ -1,0 +1,929 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Furbar.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Furbar.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\Template\\Subscribe.html",
+      "PackagePath": "staticwebassets\\Template\\Subscribe.html"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\Template\\Verify.html",
+      "PackagePath": "staticwebassets\\Template\\Verify.html"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_background.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\css\\plugins\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\css\\plugins\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\css\\plugins\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\css\\plugins\\ion.rangeSlider.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\ion.rangeSlider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\css\\plugins\\odometer.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\odometer.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\css\\plugins\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\css\\plugins\\select2.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\css\\plugins\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\author-1.jpg",
+      "PackagePath": "staticwebassets\\images\\author-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\author\\author-1.png",
+      "PackagePath": "staticwebassets\\images\\author\\author-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\author\\author-2.png",
+      "PackagePath": "staticwebassets\\images\\author\\author-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\author\\author-3.png",
+      "PackagePath": "staticwebassets\\images\\author\\author-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\banner-menu-01.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-menu-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\banner-menu-02.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-menu-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\banner\\banner-05.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\banner\\banner-06.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\68140c04-e36e-44fb-8884-161d42008b6fblog-02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\68140c04-e36e-44fb-8884-161d42008b6fblog-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\75e542a1-4891-41a1-89d7-67b6944dfac0blog-01.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\75e542a1-4891-41a1-89d7-67b6944dfac0blog-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\a21489de-5adb-4dab-88f9-33ff8d7af701blog-03.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\a21489de-5adb-4dab-88f9-33ff8d7af701blog-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\admin-author.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\admin-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-01.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-03.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-04.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-05.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-06.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-07.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-08.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-09.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-dec-img1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-dec-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-dec-img2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-dec-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\blog-details.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\blog\\signechar.png",
+      "PackagePath": "staticwebassets\\images\\blog\\signechar.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\brand\\brand-1.png",
+      "PackagePath": "staticwebassets\\images\\brand\\brand-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\brand\\brand-2.png",
+      "PackagePath": "staticwebassets\\images\\brand\\brand-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\brand\\brand-3.png",
+      "PackagePath": "staticwebassets\\images\\brand\\brand-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\brand\\brand-4.png",
+      "PackagePath": "staticwebassets\\images\\brand\\brand-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\brand\\brand-5.png",
+      "PackagePath": "staticwebassets\\images\\brand\\brand-5.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\images\\cart\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\images\\cart\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\images\\cart\\cart-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\contact-info.png",
+      "PackagePath": "staticwebassets\\images\\contact-info.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\countdown.png",
+      "PackagePath": "staticwebassets\\images\\countdown.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\icon\\icon-1.png",
+      "PackagePath": "staticwebassets\\images\\icon\\icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\icon\\icon-2.png",
+      "PackagePath": "staticwebassets\\images\\icon\\icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\icon\\icon-3.png",
+      "PackagePath": "staticwebassets\\images\\icon\\icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\icon\\icon-4.png",
+      "PackagePath": "staticwebassets\\images\\icon\\icon-4.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\icon\\icon-5.jpg",
+      "PackagePath": "staticwebassets\\images\\icon\\icon-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\icon\\quote.png",
+      "PackagePath": "staticwebassets\\images\\icon\\quote.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\images-gallery\\image-1.jpg",
+      "PackagePath": "staticwebassets\\images\\images-gallery\\image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\images-gallery\\image-2.jpg",
+      "PackagePath": "staticwebassets\\images\\images-gallery\\image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\images-gallery\\image-3.jpg",
+      "PackagePath": "staticwebassets\\images\\images-gallery\\image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\images-gallery\\image-4.jpg",
+      "PackagePath": "staticwebassets\\images\\images-gallery\\image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\marker.jpg",
+      "PackagePath": "staticwebassets\\images\\marker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\page-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\page-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\payment.png",
+      "PackagePath": "staticwebassets\\images\\payment.png"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product-details\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\product-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product-details\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\product-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product-details\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\product-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product-details\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\product-details-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product-details\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\product-details-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\22b0a264-8b1b-4888-80ae-1116bf087cfdproduct-details-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\22b0a264-8b1b-4888-80ae-1116bf087cfdproduct-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\3206df01-829a-476e-9015-6e6609afb144product-details-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\3206df01-829a-476e-9015-6e6609afb144product-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\e9277500-ba2a-4a65-b386-8e67e1cee904product-details-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\e9277500-ba2a-4a65-b386-8e67e1cee904product-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-01.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-02.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-03.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-04.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-05.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-06.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-07.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-08.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-09.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\product\\product-13.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\slider\\slider-01.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\slider-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\slider\\slider-02.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\slider-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\team\\34d7967f-6abc-4fb4-85c1-a6f2f0f68607team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\34d7967f-6abc-4fb4-85c1-a6f2f0f68607team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\team\\7d6452cc-ec25-4487-8c7e-c0019bab8768team-3.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\7d6452cc-ec25-4487-8c7e-c0019bab8768team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\team\\aaeaa671-57cc-44ce-ac79-0a3678589972team-2.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\aaeaa671-57cc-44ce-ac79-0a3678589972team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\images\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\plugins\\ajax-contact.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\ajax-contact.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\plugins\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\plugins\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\plugins\\jquery.zoom.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\plugins\\odometer.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\odometer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\plugins\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\plugins\\select2.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\plugins\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\vendor\\jquery-3.5.1.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-3.5.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FA506QM\\Desktop\\FinalProject\\BackEnd\\Furbar\\Furbar\\wwwroot\\js\\vendor\\modernizr-3.11.2.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr-3.11.2.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Furbar.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Furbar.props",
+      "PackagePath": "build\\Furbar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Furbar.props",
+      "PackagePath": "buildMultiTargeting\\Furbar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Furbar.props",
+      "PackagePath": "buildTransitive\\Furbar.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
