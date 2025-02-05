@@ -1,4 +1,4 @@
-# Furbar Blog and Shopping Platform 📝🛍️
+# Furbar Blog and Shopping Platform with only BackEnd Code📝🛍️
 
 **Furbar** is a feature-rich web application that combines the functionality of a blog platform with an integrated shopping system. Users can create accounts, publish blogs, engage with content through comments, explore blogs with advanced search and filtering, and even shop using a robust cart and wishlist system. Additionally, users can subscribe to receive email updates whenever new blogs are added.
 
@@ -35,4 +35,5 @@ Acknowledgements
 
     Backend Developer: Jeyhun Mustafayev
     Developed: April-June 2023
-
+    The FrontEnd code does not exist
+    
